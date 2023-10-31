@@ -1,0 +1,51 @@
+
+# def instructionss():
+#     global instruct
+#     backg = "gray7"
+#     frontg = "white smoke"
+#     instruct = Frame(root, bg=backg, bd=5)
+#     instruct.place(x=0, y=0, relheight=1, relwidth=1)
+#
+#     close_button = Button(instruct, text="X", font="courier 16", bg="red", fg="white", command=closeinstruct)
+#     close_button.place(relx=0.93, rely=0.02, relwidth=0.05, relheight=0.05)
+#
+#     heading = Label(instruct, text="INSTRUCTIONS!", font="impact 26 bold", bg=backg, fg="deep pink")
+#     heading.place(relx=0.3, rely=0.05)
+#
+#     point1 = Label(instruct, text="1.Connect your whatsapp to whatsapp web before starting.", font="courier 14 bold",
+#                    bg=backg, fg=frontg)
+#     point1.place(relx=0.02, rely=0.2)
+#
+#     point2 = Label(instruct, text="2.Use your system default browser and keep it on while starting.",
+#                    font="courier 14 bold", bg=backg, fg=frontg)
+#     point2.place(relx=0.02, rely=0.28)
+#
+#     point3 = Label(instruct, text="3.Provide numbers with country code without '+' before number.",
+#                    font="courier 14 bold", bg=backg, fg=frontg)
+#     point3.place(relx=0.02, rely=0.36)
+#
+#     point4 = Label(instruct, text="4.Dont use emojis in message field.", font="courier 14 bold", bg=backg, fg=frontg)
+#     point4.place(relx=0.02, rely=0.44)
+#
+#     point5 = Label(instruct, text="5.Do not try to minimize or close the browser.", font="courier 14 bold", bg=backg,
+#                    fg=frontg)
+#     point5.place(relx=0.02, rely=0.52)
+#
+#     point6 = Label(instruct, text="6.Keep browser open until the process is done.", font="courier 14 bold", bg=backg,
+#                    fg=frontg)
+#     point6.place(relx=0.02, rely=0.6)
+#
+#     point7 = Label(instruct, text="7.If Your browser creates additional dilogues please look into them.",
+#                    font="courier 14 bold", bg=backg, fg=frontg)
+#     point7.place(relx=0.02, rely=0.68)
+#
+#     point8 = Label(instruct, text="8.Try to provide .csv file which contains only phone numbers.",
+#                    font="courier 14 bold", bg=backg, fg=frontg)
+#     point8.place(relx=0.02, rely=0.76)
+#
+#     point9 = Label(instruct, text="9.For detailed instructions click below button.", font="courier 14 bold", bg=backg,
+#                    fg=frontg)
+#     point9.place(relx=0.02, rely=0.84)
+#
+#     youtube = Button(instruct, text="Click here!!", font="impact 16", fg="red", bg="snow3", command=video)
+#     youtube.place(relx=0.27, rely=0.9, relwidth=0.4)
